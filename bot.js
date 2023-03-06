@@ -19,7 +19,7 @@ app.post(`/webhook/${TOKEN}`, (req, res) => {
     res.sendStatus(200);
 });
 
-bot.setWebHook(`https://server.com/webhook/${TOKEN}`);
+bot.setWebHook(`https://phpboyfriendwebhook.vercel.app/webhook/${TOKEN}`);
 
 // ----------------------------------------------------------------
 
